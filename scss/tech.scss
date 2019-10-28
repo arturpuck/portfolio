@@ -1,0 +1,61 @@
+.tech-background{
+	background-image: url('/images/tech_background.jpg')
+}
+
+.tech-header{
+	font-size:20px;
+	border-radius: 6px;
+}
+
+.tech-container{
+	max-width: 700px;
+	width:95%;
+	border-radius: 6px;
+	background:rgba(0,0,0,0.8);
+	padding: 5px;
+	margin:60px auto;
+	box-shadow: 3px 3px 3px 3px black;
+}
+
+.tech-list{
+	display: flex;
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin:0;
+	padding:4px;
+	justify-content: space-evenly;
+}
+
+.technology{
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+}
+
+.html5{
+ background-image: url('/images/tech/html5.png');
+}
+
+.css3{
+ background-image: url('/images/tech/css3.png');
+}
+
+.mysql{
+	background-image: url('/images/tech/mysql.png');
+}
+
+.php{
+	background-image: url('/images/tech/php.png');
+}
+
+.laravel{
+	background-image: url('images/tech/laravel.png');
+}
+
+.sass{
+	background-image: url('/images/tech/sass.png');
+}
+
+.laravel{
+	background-image: url('/images/tech/laravel.png');
+}

@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  position: relative;
+}
+
+.sub-header{
+	padding: 7px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Aldrich';
+    color:white;
+}
+
+@import 'navbar';
+@import 'about_me';
+@import 'projects';
+@import 'tech';
+@import 'footer';
+
+.background{
+	background-size: cover;
+	border: 0.1px solid transparent;
+	min-height:100vh;
+	position: relative;
+}
+
+.section-header{
+	position: absolute;
+	top: -15px;
+	margin:0;
+	padding: 10px;
+	color:white;
+	font-size: 24px;
+	text-align: center;
+	width:100%;
+	background: black;
+	font-family: 'Aldrich';
+}
+
+.link-list{
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  padding:0;
+}
+
+.link-list-element{
+	padding:6px;
+	transition: background 3s;
+}
+
+.link-list-element:hover{
+	background:green;
+}
+
+.dotted-list{
+	font-family: 'Armata';
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    color: white;
+}
+
+

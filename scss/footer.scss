@@ -1,0 +1,37 @@
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-family: 'Armata';
+	padding: 7px;
+	background:linear-gradient(to right,black,#3b3a38);
+	text-align: center;
+}
+
+.visually-hidden {
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+
+.icon{
+	color:white;
+	font-size: 35px;
+	margin:0 10px;
+	transition: color 2s;
+}
+
+.icon:hover{
+	color:#ffd208;
+}
+
+.icon-link{
+	text-decoration: none;
+}
+
+.footer-info-text{
+	  font-family: 'Aldrich';
+	  font-size:35px;
+	  color:white;
+}

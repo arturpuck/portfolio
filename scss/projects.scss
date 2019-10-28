@@ -1,0 +1,89 @@
+.projects-background{
+	background-image: url('/images/computers_background.jpg');
+}
+
+.project-header{
+    font-size: 17px;
+}
+
+.projects-container{
+	padding: 50px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    font-family: 'Aldrich';
+}
+
+
+.project{
+	border-radius: 5px;
+	margin-bottom: 15px;
+	width: 320px;
+	box-shadow: 3px 3px 3px 3px black;
+	border: 2px solid #290222;;
+	background: rgba(0,0,0,0.96);
+}
+
+.project-background{
+	background-size: cover;
+	border-bottom: 2px solid #290222;;
+	border-top: 2px solid #290222;;
+	height:180px;
+}
+
+.project-description{
+	padding:5px;
+	font-family: 'Armata';
+	font-size: 14px;
+}
+
+
+.project-link-list{
+	background:#242324;
+}
+
+.project-link-container{
+	flex-basis: 50%;
+}
+
+.project-link{
+	text-decoration: none;
+	font-family: 'Armata';
+	color:white;
+	text-align: center;
+	display: block;
+}
+
+.live{
+	border-radius: 0 0 0 5px;
+}
+
+.github{
+	border-radius:0 0 5px 0;
+}
+
+.company-manager-background{
+	background-image: url('/images/projects/company_manager_background.jpg');
+}
+
+.nts-background{
+	background-image: url('/images/projects/nts_background.jpg');
+}
+
+.electronic-gradebook-background{
+	background-image: url('/images/projects/gradebook_background.jpg');
+}
+
+.portfolio-background{
+	background-image: url('/images/projects/portfolio_background.jpg');
+}
+
+@media only screen and(max-width:700px )
+{
+	.projects-background{
+		background-image: none;
+		background: linear-gradient(#595759, #141414);
+	}
+}

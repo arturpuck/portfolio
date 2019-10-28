@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  position: relative;
+  background-size: cover;
+  background-image: url('/images/contact_background.jpg');
+  min-height: 100vh;
+  border: 0.1px solid transparent;
+}
+
+@import 'navbar';
+@import 'footer';
+@import 'form';
+
+.link-list{
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  padding:0;
+}
+
+.link-list-element{
+	padding:6px;
+	transition: background 3s;
+}
+
+.link-list-element:hover{
+	background:green;
+}
+
+
+
+.user-feedback{
+	display:block;
+	margin: 50px auto 0 auto;
+	font: bold 20px 'Aldrich';
+	text-align: center;
+	color:black;
+}
+
+.error-list{
+   margin: 5px auto 0 auto;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.has-error{
+	border: 1px solid red;
+}
+
+.error{
+	animation:flickering_error linear 1s 1s 1;
+}
+
+@keyframes flickering_error{
+	0%{
+		color:black;
+	}
+
+	5%{
+		color:red;
+	}
+
+	95%{
+		color:red;
+	}
+
+	100%{
+		color:black;
+	}
+}
+

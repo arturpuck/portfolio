@@ -1,0 +1,27 @@
+.navbar{
+	background: black;
+	position: fixed;
+	width:100%;
+	top: 0;
+	z-index: 10;
+}
+
+.menu-link{
+	text-decoration:none;
+	font-size: 20px;
+	font-family: 'Aldrich';
+	color: white;
+}
+
+@media only screen and(max-width:400px ){
+   
+   .menu-link{
+   	  font-size:15px;
+   }
+
+   .link-list{
+   	  justify-content: flex-start;
+   }
+
+
+}

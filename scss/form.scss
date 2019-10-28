@@ -1,0 +1,106 @@
+.form-container{
+	margin:60px auto 80px auto;
+	max-width:600px;
+	width:95%;
+	border-radius:6px;
+	background:rgba(0,0,0,0.87);
+	box-shadow:3px 3px 3px 3px black;
+	border: 0.1px solid transparent;
+}
+
+.sending-details{
+	display: block;
+	width:95%;
+	color:white;
+	margin:0 auto 5px auto;
+	font-family: 'Armata';
+}
+
+.header{
+	padding: 8px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-family: 'Aldrich';
+}
+
+.mail-form{
+	display: block;
+}
+
+.single-layer-label{
+	color: white;
+    font-size: 19px;
+    font-family: 'Aldrich';
+    border: 1px solid white;
+    padding:5px;
+    border-radius:4px;
+    display: block;
+    margin:5px auto;
+    width:95%;
+}
+
+.text-message-label{
+	color: white;
+    font-size: 22px;
+    font-family: 'Aldrich';
+    display: block;
+    text-align: center;
+    width:95%;
+    margin:5px auto;
+}
+
+.text-message{
+	display: block;
+	background:transparent;
+	color:white;
+	min-height: 20vh;
+	border:1px solid white;
+	font-family: 'Armata';
+	border-radius: 4px;
+	margin:0 auto 10px auto;
+	width:95%;
+}
+
+.single-layer-input{
+	background:transparent;
+	border-bottom: 1px solid transparent;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	outline:none;
+	width: calc(100% - 150px);
+	color:white;
+	font-family: 'Armata';
+	font-size: 17px;
+}
+
+.single-layer-input:focus{
+	border-bottom: 1px solid white;
+}
+
+.buttons-container{
+   width:95%;
+   margin:0 auto 6px auto;
+}
+.button{
+  padding: 1px 8px;
+  border-radius: 4px;
+  color:white;
+  cursor:pointer;
+  font-family: 'Aldrich';
+  font-size: 19px;
+}
+
+.submit-button
+{
+  background: green;
+  border: 2px solid green;	
+}
+
+.reset-button
+{
+  background: red;
+  border: 2px solid red;	
+}
